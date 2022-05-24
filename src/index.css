@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Iteration 1 styling */
+.id-card {
+  display: flex;
+  border: 1px solid black;
+  padding: 0.25em;
+  margin: 1em;
+  gap: 0.5em;
+}
+.id-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.greetings,
+.random,
+.box-color {
+  border: 1px solid black;
+  padding: 0.25em;
+  margin: 1em;
+}
